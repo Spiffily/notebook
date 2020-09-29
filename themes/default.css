@@ -35,7 +35,7 @@
 @media (prefers-color-scheme: dark) {
   :root{ /*NOTE: Make all dark theme changes here.*/
     --background-color: #4f4f4f;
-    --base-color: #77777777;
+    --base-color: #777777DF;
     --foreground-color: white;
     --button-color: #567859;
     --accent-color: #567859;
@@ -64,6 +64,6 @@
     --font-family-code: 'Courier Prime', monospace;
   }
   ::selection{
-    text-shadow: 2px 2px var(--base-color);
+    text-decoration: underline;
   }
 }
