@@ -62,6 +62,15 @@ p, b, i {
   margin: 25px 25px; */
   margin:20px;
 }
+img{
+  margin: 20px;
+}
+date{
+  color: lightgrey;
+  font-style: italic;
+  text-align: center;
+  margin: 20px;
+}
 #emoji{
   font-size: 42pt;
 }
@@ -111,7 +120,23 @@ button:active{
   align-items: center;
   text-align: center;
 }
-.row > *{margin: 0px 3px;}
+/* .row > *{margin: 0px 3px;} */
+
+.nobox{
+  background: none;
+}
+
+.center{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.right{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
 
 /* Grids */
 .grid-container {
@@ -140,6 +165,10 @@ button:active{
   -webkit-border-radius:var(--border-radius); */
   padding: 20px;
   text-align: center;
+}
+
+.preview-img {
+  max-width: 20%;
 }
 
 /* Toolbar */

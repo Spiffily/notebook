@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Spiffily Software">
+    <meta name="description" content="The Digital Notebook. By students, for students.">
+    <title>Notebook</title>
+    <!-- https://electronjs.org/docs/tutorial/security#csp-meta-tag -->
+    <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline';" />
+    <link rel="stylesheet" href="./themes/default.css">
+    <link rel="stylesheet" href="./index.css">
+    <link rel="icon" href="./assets/favicon.png"  type="image/png" >
+  </head>
+  <body>
+    <h1>Template</h1> <!--You can of course edit the page title and the summary. Don't change any other part of the page header. (Which is the website navbar and above.)-->
+    <p style="text-align:center">A simple one line summary</p>
+
+    <!-- <iframe src="./toolbar.html" style="height:45px;" scrolling="no" class="sitenav"></iframe> -->
+    <div class="toolbar">
+      <a href="./">📓 <b>Home</b></a>
+      <a href="./tips.html">Tips</a>
+      <a href="./resources.html">Resources</a>
+      <a href="./contribute.html">Contribute</a>
+    </div>
+
+    <div class="nobox column container">
+      <p>This is a vaugely inspirational summary of what's on this page. It uses the <code>nobox</code> class to get rid of the container borders.</p>
+    </div>
+    <div class="column container">
+      <h1>This is a page section</h1>
+      <div class="row container">
+        <p>This is a <code>row container.</code></p>
+        <img src="./assets/Armature.svg" alt="Armature.svg" style="max-width:75px;"/>
+        <p>This is another item in the row.</p>
+      </div>
+      <div class="center"><a href="#featurequest"><button>This is a page bookmark</button></a></div>
+    </div>
+    <div class="column container">
+      <h1>Step 1</h1>
+      <p>This is the first great step to whatever guide this is.</p>
+      <div class="nobox row container">
+        <p>This is a row container without a box.</p>
+      </div>
+    </div>
+    <div id="featurequest" class="column container">
+      <h1>Giving Feedback</h1>
+      <p>Our goal is to give you the bst experience possible. We can't do that if you don't tell us what you want, we can't so it!</p>
+      <p>Please take a minute to tell us what you want from The Notebook.</p>
+      <div class="center">
+        <button><a href="https://github.com/Spiffily/notebook/issues/new?assignees=&labels=enhancement&template=feature_request.md&title=">Feature Request</a></button>
+      </div>
+    </div>
+
+  </body>
+</html>
