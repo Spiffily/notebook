@@ -1,0 +1,25 @@
+/*  ____       _   _   _
+   / ___|  ___| |_| |_(_)_ __   __ _ ___
+   \___ \ / _ \ __| __| | '_ \ / _` / __|
+    ___) |  __/ |_| |_| | | | | (_| \__ \
+   |____/ \___|\__|\__|_|_| |_|\__, |___/
+                                |___/      */
+/* This is the settings file. Include your
+stylesheets and style imports here. You
+should not commit this file. This is the
+sheet you should link in your html using
+the following line in <head>:
+<link rel="stylesheet" href="./purecss/settings.css">
+*/
+@import url('./index.css'); /*Do not change this line.*/
+
+/* Theme */
+@import url('./themes/page.css');
+
+/* Default fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&family=Quicksand&family=Ubuntu:wght@500&display=swap');
+/* Font families:
+      Header:  font-family: 'Ubuntu', sans-serif;
+      Body:    font-family: 'Quicksand', sans-serif;
+      Code:    font-family: 'Inconsolata', monospace;
+*/
